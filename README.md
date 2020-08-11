@@ -2,22 +2,23 @@
 以https://github.com/yuanguangxin/LeetCode为基础
 
 参考 https://github.com/dashidhy/algorithm-pattern-python
+
 和https://www.educative.io/courses/grokking-the-coding-interview
 
  
 ##Hash相关
 
--[x] q1_两数之和
--[x] q387_字符串中的第一个唯一字符
+- [x] q1_两数之和
+- [x] q387_字符串中的第一个唯一字符
 
 ##链表操作
 
--[x] q2_两数相加
--[x] q19_删除链表的倒数第N个节点
--[ ] q25_k个一组翻转链表
--[x] q61_旋转链表
--[x] q138_复制带随机指针的链表
--[x] q206_反转链表
+- [x] q2_两数相加
+- [x] q19_删除链表的倒数第N个节点
+- [ ] q25_k个一组翻转链表
+- [x] q61_旋转链表
+- [x] q138_复制带随机指针的链表
+- [x] q206_反转链表
 
     remove-duplicates-from-sorted-list
     remove-duplicates-from-sorted-list-ii 
@@ -38,14 +39,14 @@
 
 ## 双指针遍历/滑动窗口
 
--[x] q3_无重复字符的最长子串
--[x] q11_盛最多水的容器
--[ ] q15_三数之和
--[ ] q16_最接近的三数之和
--[ ] q26_删除排序数组中的重复项
--[ ] q42_接雨水
--[x] q121_买卖股票的最佳时机
--[ ] q209_长度最小的子数组
+- [x] q3_无重复字符的最长子串
+- [x] q11_盛最多水的容器
+- [ ] q15_三数之和
+- [ ] q16_最接近的三数之和
+- [ ] q26_删除排序数组中的重复项
+- [ ] q42_接雨水
+- [x] q121_买卖股票的最佳时机
+- [ ] q209_长度最小的子数组
     
     滑动窗口
     minimum-window-substring
@@ -100,9 +101,9 @@
 
 快慢指针遍历
 
--[x] q141_环形链表
--[ ] q202_快乐数
--[ ] q876_链表的中间结点
+- [x] q141_环形链表
+- [ ] q202_快乐数
+- [ ] q876_链表的中间结点
     
     ## 3. Pattern: Fast & Slow pointers, 快慢指针类型 
     LinkedList Cycle (easy)
