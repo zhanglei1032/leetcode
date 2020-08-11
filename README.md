@@ -6,12 +6,12 @@
 和https://www.educative.io/courses/grokking-the-coding-interview
 
  
-##Hash相关
+## Hash相关
 
 - [x] q1_两数之和
 - [x] q387_字符串中的第一个唯一字符
 
-##链表操作
+## 链表操作
 
 - [x] q2_两数相加
 - [x] q19_删除链表的倒数第N个节点
@@ -54,11 +54,12 @@
     find-all-anagrams-in-a-string
     longest-substring-without-repeating-characters
     
-    ## 1. Pattern: Sliding window，滑动窗口类型 
-    ### No.325 Maximum Sum Subarray of Size K（最大子数组和为k）  
+    1. Pattern: Sliding window，滑动窗口类型 
+    No.325 Maximum Sum Subarray of Size K（最大子数组和为k）  
         
     
-    > Given an array nums and a target value k, find the maximum length of a subarray that sums to k. If there isn’t one, return 0 instead
+    > Given an array nums and a target value k, find the maximum length of a subarray that sums to k. 
+        If there isn’t one, return 0 instead
         Note:
         The sum of the entire nums array is guaranteed to fit within the 32-bit signed integer range.
         >>Example 1:
@@ -99,7 +100,7 @@
     Dutch National Flag Problem (medium)
     
 
-快慢指针遍历
+## 快慢指针遍历
 
 - [x] q141_环形链表
 - [ ] q202_快乐数
@@ -114,7 +115,7 @@
     
     Middle of the LinkedList (easy)
 
-区间合并
+## 区间合并
 
     q56_合并区间
     
@@ -130,13 +131,13 @@
     Conflicting Appointments (medium)
       
 
-字符串操作
+## 字符串操作
 
     q6_Z字形变换
     q14_最长公共前缀
     q763_划分字母区间
 
-数字操作
+## 数字操作
 
     q7_整数反转
     q8_字符串转换整数
@@ -145,7 +146,7 @@
     q172_阶乘后的零
     q258_各位相加
 
-数组操作
+## 数组操作
 
     q54_螺旋矩阵
     q73_矩阵置零
@@ -154,7 +155,7 @@
     q581_最短无序连续子数组
     q945_使数组唯一的最小增量
 
-栈和队列相关
+## 栈和队列相关
 
     q20_有效的括号
     q32_最长有效括号
@@ -173,7 +174,7 @@
     implement-queue-using-stacks
     01-matrix
 
-二进制
+## 二进制
 
     single-number
     single-number-ii
@@ -182,7 +183,7 @@
     counting-bits
     reverse-bits
     
-堆相关
+## 堆相关
 
     q215_数组中的第K个最大元素
     q347_前K个高频元素
@@ -212,7 +213,7 @@
     Rearrange String (hard)
     
 
-递归
+## 递归
 
     q21_合并两个有序链表
     q101_对称二叉树
@@ -224,7 +225,7 @@
     unique-binary-search-trees-ii
     fibonacci-number
 
-分治法/二分法
+## 分治法/二分法
 
     q23_合并K个排序链表
     q33_搜索旋转排序数组
@@ -255,7 +256,7 @@
     
     Bitonic Array Maximum (easy)
 
-动态规划
+## 动态规划
 
     q5_最长回文子串
     q53_最大子序和
@@ -301,7 +302,7 @@
     
     Minimum Subset Sum Difference (hard)
 
-回溯法
+## 回溯法
 
     q10_正则表达式匹配
     q22_括号生成
@@ -322,7 +323,7 @@
     permutations
 
 
-树相关
+## 树相关
 
     q94_二叉树的中序遍历
     q102_二叉树的层次遍历
@@ -364,7 +365,7 @@
     
     Count Paths for a Sum (medium)
 
-二叉搜索树相关
+## 二叉搜索树相关
 
     q98_验证二叉搜索树
     q450_删除二叉搜索树中的节点
