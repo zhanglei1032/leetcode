@@ -21,14 +21,23 @@
 - [x] q206_反转链表
 
     remove-duplicates-from-sorted-list
+    
     remove-duplicates-from-sorted-list-ii 
+    
     reverse-linked-list-ii
+    
     merge-two-sorted-lists
+    
     partition-list
+    
     sort-list
+    
     reorder-list
+    
     linked-list-cycle
+    
     linked-list-cycle-ii
+    
     palindrome-linked-list 
     
     6. Pattern: In-place Reversal of a LinkedList，链表翻转  
@@ -49,20 +58,27 @@
 - [ ] q209_长度最小的子数组
     
     滑动窗口
+    
     minimum-window-substring
+    
     permutation-in-string
+    
     find-all-anagrams-in-a-string
+    
     longest-substring-without-repeating-characters
     
     1. Pattern: Sliding window，滑动窗口类型 
+    
     No.325 Maximum Sum Subarray of Size K（最大子数组和为k）  
         
     
     > Given an array nums and a target value k, find the maximum length of a subarray that sums to k. 
         If there isn’t one, return 0 instead
+        
         Note:
         The sum of the entire nums array is guaranteed to fit within the 32-bit signed integer range.
         >>Example 1:
+        
         Given nums = [1,-1,5,-2,3],k = 3,
         return 4.(because the subarray [1,-1,5,-2] sums to 3 and is the longest
         Given nums = [-2,-1,2,1], k = 1,
@@ -81,7 +97,7 @@
     
     Longest Subarray with Ones after Replacement (hard)
          
-    ## 2. Pattern: two points, 双指针类型 
+    2. Pattern: two points, 双指针类型 
     
     Pair with Target Sum (easy)
     
@@ -103,10 +119,11 @@
 ## 快慢指针遍历
 
 - [x] q141_环形链表
-- [ ] q202_快乐数
+- [x] q202_快乐数
 - [ ] q876_链表的中间结点
     
-    ## 3. Pattern: Fast & Slow pointers, 快慢指针类型 
+    3. Pattern: Fast & Slow pointers, 快慢指针类型 
+    
     LinkedList Cycle (easy)
     
     Start of LinkedList Cycle (medium)
@@ -165,13 +182,21 @@
     q316_去除重复字母
     
     min-stack
+    
     evaluate-reverse-polish-notation
+    
     decode-string
+    
     binary-tree-inorder-traversal
+    
     clone-graph
+    
     number-of-islands
+    
     largest-rectangle-in-histogram
+    
     implement-queue-using-stacks
+    
     01-matrix
 
 ## 二进制
@@ -215,11 +240,11 @@
 
 ## 递归
 
-    q21_合并两个有序链表
-    q101_对称二叉树
-    q104_二叉树的最大深度
-    q226_翻转二叉树
-    q236_二叉树的最近公共祖先
+- [ ] q21_合并两个有序链表
+- [ ] q101_对称二叉树
+- [ ] q104_二叉树的最大深度
+- [ ] q226_翻转二叉树
+- [ ] q236_二叉树的最近公共祖先
     reverse-string
     swap-nodes-in-pairs
     unique-binary-search-trees-ii
@@ -258,15 +283,16 @@
 
 ## 动态规划
 
-    q5_最长回文子串
-    q53_最大子序和
-    q62_不同路径
-    q64_最小路径和
-    q70_爬楼梯
-    q118_杨辉三角
-    q300_最长上升子序列
-    q1143_最长公共子序列
-    q1277_统计全为1的正方形子矩阵
+- [ ] q5_最长回文子串
+- [ ] q53_最大子序和
+- [ ] q62_不同路径
+- [ ] q64_最小路径和
+- [ ] q70_爬楼梯
+- [ ] q118_杨辉三角
+- [ ] q300_最长上升子序列
+- [ ] q1143_最长公共子序列
+- [ ] q1277_统计全为1的正方形子矩阵
+
     Matrix DP (10%)
 
     triangle
@@ -353,7 +379,7 @@
     Connect Level Order Siblings (medium)
     
      
-    ## 8. Pattern: Tree Depth First Search，树上的DFS 
+    8. Pattern: Tree Depth First Search，树上的DFS 
     
     Binary Tree Path Sum (easy)
     
