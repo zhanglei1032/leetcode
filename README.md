@@ -134,7 +134,7 @@
 
 ## 区间合并
 
-    q56_合并区间
+- [x] q56_合并区间
     
      
     ## 4. Pattern: Merge Intervals，区间合并类型 
@@ -150,39 +150,37 @@
 
 ## 字符串操作
 
-    q6_Z字形变换
-    q14_最长公共前缀
-    q763_划分字母区间
+- [ ] q6_Z字形变换
+- [ ] q14_最长公共前缀
+- [ ] q763_划分字母区间
 
 ## 数字操作
 
-    q7_整数反转
-    q8_字符串转换整数
-    q9_回文数
-    q43_字符串相乘
-    q172_阶乘后的零
-    q258_各位相加
+- [ ] q7_整数反转
+- [ ] q8_字符串转换整数
+- [ ] q9_回文数
+- [ ] q43_字符串相乘
+- [ ] q172_阶乘后的零
+- [ ] q258_各位相加
 
 ## 数组操作
 
-    q54_螺旋矩阵
-    q73_矩阵置零
-    q78_子集
-    q384_打乱数组
-    q581_最短无序连续子数组
-    q945_使数组唯一的最小增量
+- [ ] q54_螺旋矩阵
+- [ ] q73_矩阵置零
+- [ ] q78_子集
+- [ ] q384_打乱数组
+- [ ] q581_最短无序连续子数组
+- [ ] q945_使数组唯一的最小增量
 
 ## 栈和队列相关
 
-    q20_有效的括号
-    q32_最长有效括号
-    q155_最小栈
-    q224_基本计算器
-    q232_用栈实现队列
-    q316_去除重复字母
-    
-    min-stack
-    
+- [ ] q20_有效的括号
+- [ ] q32_最长有效括号
+- [x] q155_最小栈
+- [ ] q224_基本计算器
+- [ ] q232_用栈实现队列
+- [ ] q316_去除重复字母
+        
     evaluate-reverse-polish-notation
     
     decode-string
@@ -210,8 +208,8 @@
     
 ## 堆相关
 
-    q215_数组中的第K个最大元素
-    q347_前K个高频元素
+- [ ] q215_数组中的第K个最大元素
+- [ ] q347_前K个高频元素
     
     ## 12. Pattern: Top ‘K’ Elements，前K个系列 
 
@@ -245,24 +243,35 @@
 - [ ] q104_二叉树的最大深度
 - [ ] q226_翻转二叉树
 - [ ] q236_二叉树的最近公共祖先
+
     reverse-string
+
     swap-nodes-in-pairs
+
     unique-binary-search-trees-ii
+
     fibonacci-number
 
 ## 分治法/二分法
 
-    q23_合并K个排序链表
-    q33_搜索旋转排序数组
-    q34_在排序数组中查找元素的第一个和最后一个位置
+- [ ] q23_合并K个排序链表
+- [ ] q33_搜索旋转排序数组
+- [ ] q34_在排序数组中查找元素的第一个和最后一个位置
     
     search-for-range
+
     search-insert-position
+
     search-a-2d-matrix
+
     first-bad-version
+
     find-minimum-in-rotated-sorted-array
+
     find-minimum-in-rotated-sorted-array-ii
+
     search-in-rotated-sorted-array
+
     search-in-rotated-sorted-array-ii
     
     ## 11. Pattern: Modified Binary Search，改造过的二分 
@@ -330,10 +339,10 @@
 
 ## 回溯法
 
-    q10_正则表达式匹配
-    q22_括号生成
-    q40_组合总和2
-    q46_全排列
+- [ ] q10_正则表达式匹配
+- [ ] q22_括号生成
+- [ ] q40_组合总和2
+- [ ] q46_全排列
     
     subsets
     subsets-ii
@@ -351,19 +360,26 @@
 
 ## 树相关
 
-    q94_二叉树的中序遍历
-    q102_二叉树的层次遍历
-    q110_平衡二叉树
-    q144_二叉树的前序遍历
-    q145_二叉树的后序遍历
+- [ ] q94_二叉树的中序遍历
+- [ ] q102_二叉树的层次遍历
+- [ ] q110_平衡二叉树
+- [ ] q144_二叉树的前序遍历
+- [ ] q145_二叉树的后序遍历
     
     maximum-depth-of-binary-tree
+    
     balanced-binary-tree
+    
     binary-tree-maximum-path-sum
+    
     lowest-common-ancestor-of-a-binary-tree 
+    
     binary-tree-level-order-traversal-ii
+    
     binary-tree-zigzag-level-order-traversal
+    
     validate-binary-search-tree
+    
     insert-into-a-binary-search-tree
     
     ## 7. Pattern: Tree Breadth First Search，树上的BFS  
@@ -393,10 +409,10 @@
 
 ## 二叉搜索树相关
 
-    q98_验证二叉搜索树
-    q450_删除二叉搜索树中的节点
-    q701_二叉搜索树中的插入操作   
-    balanced-binary-tree
+- [ ] q98_验证二叉搜索树
+- [ ] q450_删除二叉搜索树中的节点
+- [ ] q701_二叉搜索树中的插入操作   
+- [ ] balanced-binary-tree
  
 
 5. Pattern: Cyclic Sort，循环排序 
