@@ -121,16 +121,8 @@
 - [x] q141_环形链表
 - [x] q202_快乐数
 - [ ] q876_链表的中间结点
-    
-    3. Pattern: Fast & Slow pointers, 快慢指针类型 
-    
-    LinkedList Cycle (easy)
-    
-    Start of LinkedList Cycle (medium)
-    
-    Happy Number (medium)
-    
-    Middle of the LinkedList (easy)
+      
+    Start of LinkedList Cycle (medium) 
 
 ## 区间合并
 
@@ -178,7 +170,7 @@
 - [ ] q32_最长有效括号
 - [x] q155_最小栈
 - [ ] q224_基本计算器
-- [ ] q232_用栈实现队列
+- [x] q232_用栈实现队列
 - [ ] q316_去除重复字母
         
     evaluate-reverse-polish-notation
@@ -305,28 +297,39 @@
     Matrix DP (10%)
 
     triangle
+    
     minimum-path-sum
+    
     unique-paths
+    
     unique-paths-ii
 
     Sequence (40%)
 
     climbing-stairs
+    
     jump-game
+    
     jump-game-ii
+    
     palindrome-partitioning-ii
+    
     longest-increasing-subsequence
+    
     word-break
 
     Two Sequences DP (40%)
 
     longest-common-subsequence
+    
     edit-distance
 
     Backpack & Coin Change (10%)
 
     coin-change
+    
     backpack
+    
     backpack-ii
     
     0/1 Knapsack (medium)
@@ -345,16 +348,23 @@
 - [ ] q46_全排列
     
     subsets
+    
     subsets-ii
+    
     permutations
+    
     permutations-ii
 
     挑战题目
 
     combination-sum
+    
     letter-combinations-of-a-phone-number
+    
     palindrome-partitioning
+    
     restore-ip-addresses
+    
     permutations
 
 
