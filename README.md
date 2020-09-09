@@ -40,11 +40,12 @@
     
     palindrome-linked-list 
     
-    6. Pattern: In-place Reversal of a LinkedList，链表翻转  
+    7. Pattern: In-place Reversal of a LinkedList，链表原地翻转  
+    
+    Reverse a LinkedList (easy)
     
     Reverse a Sub-list (medium)
     
-    Reverse every K-element Sub-list (medium)
 
 ## 双指针遍历/滑动窗口
 
@@ -122,47 +123,8 @@
 - [x] q202_快乐数
 - [ ] q876_链表的中间结点
       
-    Start of LinkedList Cycle (medium) 
-
-## 区间合并
-
-- [x] q56_合并区间
-    
+    Start of LinkedList Cycle (medium)   
      
-    ## 4. Pattern: Merge Intervals，区间合并类型 
-    
-    Merge Intervals (medium)
-    
-    Insert Interval (medium)
-    
-    Intervals Intersection (medium)
-    
-    Conflicting Appointments (medium)
-      
-
-## 字符串操作
-
-- [ ] q6_Z字形变换
-- [ ] q14_最长公共前缀
-- [ ] q763_划分字母区间
-
-## 数字操作
-
-- [ ] q7_整数反转
-- [ ] q8_字符串转换整数
-- [ ] q9_回文数
-- [ ] q43_字符串相乘
-- [ ] q172_阶乘后的零
-- [ ] q258_各位相加
-
-## 数组操作
-
-- [ ] q54_螺旋矩阵
-- [ ] q73_矩阵置零
-- [ ] q78_子集
-- [ ] q384_打乱数组
-- [ ] q581_最短无序连续子数组
-- [ ] q945_使数组唯一的最小增量
 
 ## 栈和队列相关
 
@@ -188,22 +150,14 @@
     implement-queue-using-stacks
     
     01-matrix
-
-## 二进制
-
-    single-number
-    single-number-ii
-    single-number-iii
-    number-of-1-bits
-    counting-bits
-    reverse-bits
+    
     
 ## 堆相关
 
 - [ ] q215_数组中的第K个最大元素
 - [ ] q347_前K个高频元素
     
-    ## 12. Pattern: Top ‘K’ Elements，前K个系列 
+    # 14. Pattern: Top ‘K’ Elements，前K个系列 
 
     Top ‘K’ Numbers (easy)
     
@@ -226,12 +180,81 @@
     Sum of Elements (medium)
     
     Rearrange String (hard)
+
+    # 10. Pattern: Two Heaps，双堆类型 
+
+    Find the Median of a Number Stream (medium)
     
+    Sliding Window Median (hard)
+    
+    Maximize Capital (hard)
+ 
+
+## 树相关
+
+- [ ] q94_二叉树的中序遍历
+- [ ] q102_二叉树的层次遍历
+- [ ] q110_平衡二叉树
+- [ ] q144_二叉树的前序遍历
+- [ ] q145_二叉树的后序遍历
+    
+    maximum-depth-of-binary-tree
+    
+    balanced-binary-tree
+    
+    binary-tree-maximum-path-sum
+    
+    lowest-common-ancestor-of-a-binary-tree 
+    
+    binary-tree-level-order-traversal-ii
+    
+    binary-tree-zigzag-level-order-traversal
+    
+    validate-binary-search-tree
+    
+    insert-into-a-binary-search-tree
+    
+    # 8. Pattern: Tree Breadth First Search，树上的BFS  
+    
+    Binary Tree Level Order Traversal (easy)
+    
+    Reverse Level Order Traversal (easy)
+    
+    Zigzag Traversal (medium)
+    
+    Level Averages in a Binary Tree (easy) 
+    
+    Level Order Successor (easy)
+    
+    Connect Level Order Siblings (medium) 
+    
+    Minimum Depth of a Binary Tree (easy)  
+ 
+  
+    9. Pattern: Tree Depth First Search，树上的DFS 
+    
+    Binary Tree Path Sum (easy)
+    
+    All Paths for a Sum (medium)
+    
+    Sum of Path Numbers (medium)
+    
+    Path With Given Sequence (medium)
+    
+    Count Paths for a Sum (medium)
+
+## 二叉搜索树相关
+
+- [ ] q98_验证二叉搜索树
+- [ ] q450_删除二叉搜索树中的节点
+- [ ] q701_二叉搜索树中的插入操作   
+- [ ] balanced-binary-tree
+
 
 ## 递归
 
 - [ ] q21_合并两个有序链表
-- [ ] q101_对称二叉树
+- [x] q101_对称二叉树
 - [ ] q104_二叉树的最大深度
 - [ ] q226_翻转二叉树
 - [ ] q236_二叉树的最近公共祖先
@@ -266,7 +289,7 @@
 
     search-in-rotated-sorted-array-ii
     
-    ## 11. Pattern: Modified Binary Search，改造过的二分 
+    # 12. Pattern: Modified Binary Search，改造过的二分 
 
     Order-agnostic Binary Search (easy)
     
@@ -281,6 +304,7 @@
     Minimum Difference Element (medium)
     
     Bitonic Array Maximum (easy)
+    
 
 ## 动态规划
 
@@ -332,6 +356,8 @@
     
     backpack-ii
     
+    # 16. Pattern : 0/1 Knapsack (Dynamic Programming)
+
     0/1 Knapsack (medium)
 
     Equal Subset Sum Partition (medium)
@@ -368,84 +394,77 @@
     permutations
 
 
-## 树相关
+## 区间合并
 
-- [ ] q94_二叉树的中序遍历
-- [ ] q102_二叉树的层次遍历
-- [ ] q110_平衡二叉树
-- [ ] q144_二叉树的前序遍历
-- [ ] q145_二叉树的后序遍历
-    
-    maximum-depth-of-binary-tree
-    
-    balanced-binary-tree
-    
-    binary-tree-maximum-path-sum
-    
-    lowest-common-ancestor-of-a-binary-tree 
-    
-    binary-tree-level-order-traversal-ii
-    
-    binary-tree-zigzag-level-order-traversal
-    
-    validate-binary-search-tree
-    
-    insert-into-a-binary-search-tree
-    
-    ## 7. Pattern: Tree Breadth First Search，树上的BFS  
-    
-    Reverse Level Order Traversal (easy)
-    
-    Zigzag Traversal (medium)
-    
-    Level Averages in a Binary Tree (easy) 
-    
-    Level Order Successor (easy)
-    
-    Connect Level Order Siblings (medium)
+- [x] q56_合并区间
     
      
-    8. Pattern: Tree Depth First Search，树上的DFS 
+    # 5. Pattern: Merge Intervals，区间合并类型 
     
-    Binary Tree Path Sum (easy)
+    Merge Intervals (medium)
     
-    All Paths for a Sum (medium)
+    Insert Interval (medium)
     
-    Sum of Path Numbers (medium)
+    Intervals Intersection (medium)
     
-    Path With Given Sequence (medium)
-    
-    Count Paths for a Sum (medium)
+    Conflicting Appointments (medium)
+      
 
-## 二叉搜索树相关
+## 字符串操作
 
-- [ ] q98_验证二叉搜索树
-- [ ] q450_删除二叉搜索树中的节点
-- [ ] q701_二叉搜索树中的插入操作   
-- [ ] balanced-binary-tree
+- [x] q6_Z字形变换
+- [x] q14_最长公共前缀
+- [ ] q763_划分字母区间
+
+## 数字操作
+
+- [ ] q7_整数反转
+- [ ] q8_字符串转换整数
+- [ ] q9_回文数
+- [ ] q43_字符串相乘
+- [ ] q172_阶乘后的零
+- [ ] q258_各位相加
+
+## 数组操作
+
+- [ ] q54_螺旋矩阵
+- [ ] q73_矩阵置零
+- [ ] q78_子集
+- [ ] q384_打乱数组
+- [ ] q581_最短无序连续子数组
+- [ ] q945_使数组唯一的最小增量
+
  
+## 二进制
 
-5. Pattern: Cyclic Sort，循环排序 
+    single-number
+    single-number-ii
+    single-number-iii
+    number-of-1-bits
+    counting-bits
+    reverse-bits
+    
+    13. Pattern: Bitwise XOR 按位异或 
+    
+    Single Number (easy)
+    
+    Two Single Numbers (medium)
+    
+    Complement of Base 10 Number (medium)
+    
+## 6. Pattern: Cyclic Sort，循环排序 
     Cyclic Sort (easy)
     
-    Find the Missing Number (easy)
+    268.Find the Missing Number (easy)
     
-    Find all Missing Numbers (easy)
+    448.Find all Missing Numbers (easy)
     
-    Find the Duplicate Number (easy)
+    287.Find the Duplicate Number (easy)
     
-    Find all Duplicate Numbers (easy)
+    442.Find all Duplicate Numbers (easy)
  
-9. Pattern: Two Heaps，双堆类型 
-
-    Find the Median of a Number Stream (medium)
-    
-    Sliding Window Median (hard)
-    
-    Maximize Capital (hard)
-
  
-10. Pattern: Subsets，子集类型，一般都是使用多重DFS 
+## 11. Pattern: Subsets，子集类型，一般都是使用多重DFS 
     
     Subsets (easy)
     
@@ -460,7 +479,7 @@
     Unique Generalized Abbreviations (hard) 
 
 
-13. Pattern: K-way merge，多路归并 
+## 15. Pattern: K-way merge，多路归并 
 
     Merge K Sorted Lists (medium)
     
@@ -470,7 +489,7 @@
     
     Smallest Number Range (Hard)
  
-15. Pattern: Topological Sort (Graph)，拓扑排序类型 
+## 17. Pattern: Topological Sort (Graph)，拓扑排序类型 
 
     Topological Sort (medium)
     
@@ -481,3 +500,8 @@
     All Tasks Scheduling Orders (hard)
     
     Alien Dictionary (hard)
+
+
+## 18. Miscellaneous
+
+    Kth Smallest Number (hard)
