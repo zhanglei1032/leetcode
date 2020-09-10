@@ -40,9 +40,7 @@
     
     palindrome-linked-list 
     
-    7. Pattern: In-place Reversal of a LinkedList，链表原地翻转  
-    
-    Reverse a LinkedList (easy)
+    7. Pattern: In-place Reversal of a LinkedList，链表原地翻转   
     
     Reverse a Sub-list (medium)
     
@@ -166,8 +164,6 @@
     ‘K’ Closest Points to the Origin (easy)
     
     Connect Ropes (easy)
-    
-    Top ‘K’ Frequent Numbers (medium)
     
     Frequency Sort (medium)
     
