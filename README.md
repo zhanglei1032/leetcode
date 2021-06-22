@@ -8,41 +8,27 @@
  
 ## Hash相关
 
-- [x] q1_两数之和
-- [x] q387_字符串中的第一个唯一字符
+-[x] 1_两数之和
+-[x] 387_字符串中的第一个唯一字符
 
 ## 链表操作
 
-- [x] q2_两数相加
-- [x] q19_删除链表的倒数第N个节点
-- [ ] q25_k个一组翻转链表
-- [x] q61_旋转链表
-- [x] q138_复制带随机指针的链表
-- [x] q206_反转链表
-
-    remove-duplicates-from-sorted-list
-    
-    remove-duplicates-from-sorted-list-ii 
-    
-    reverse-linked-list-ii
-    
-    merge-two-sorted-lists
-    
-    partition-list
-    
-    sort-list
-    
-    reorder-list
-    
-    linked-list-cycle
-    
-    linked-list-cycle-ii
-    
-    palindrome-linked-list 
-    
-    7. Pattern: In-place Reversal of a LinkedList，链表原地翻转   
-    
-    Reverse a Sub-list (medium)
+-[x] 2_两数相加
+-[x] 19_删除链表的倒数第N个节点
+-[ ] 25_k个一组翻转链表
+-[x] 61_旋转链表
+-[x] 138_复制带随机指针的链表
+-[x] 206_反转链表
+-[ ] 83 删除排序链表中的重复元素  remove-duplicates-from-sorted-list
+-[ ] 82 删除排序链表中的重复元素 II  remove-duplicates-from-sorted-list ii
+-[ ] 92 反转链表 II  reverse-linked-list-ii（Reverse a Sub-list）
+-[ ] 21  合并两个有序链表  merge-two-sorted-lists
+-[ ] 86  分隔链表  partition-list
+-[ ] 148  排序链表  sort-list
+-[ ] 143  重排链表  reorder-list
+-[ ] 141  环形链表  linked-list-cycle
+-[ ] 142  环形链表 II  linked-list-cycle-ii
+-[ ] 234  回文链表 palindrome-linked-list  
     
 
 ## 双指针遍历/滑动窗口
@@ -56,64 +42,57 @@
 - [x] q121_买卖股票的最佳时机
 - [ ] q209_长度最小的子数组
     
-    滑动窗口
-    
-    minimum-window-substring
-    
-    permutation-in-string
-    
-    find-all-anagrams-in-a-string
-    
-    longest-substring-without-repeating-characters
-    
-    1. Pattern: Sliding window，滑动窗口类型 
-    
-    No.325 Maximum Sum Subarray of Size K（最大子数组和为k）  
-        
-    
-    > Given an array nums and a target value k, find the maximum length of a subarray that sums to k. 
-        If there isn’t one, return 0 instead
-        
-        Note:
-        The sum of the entire nums array is guaranteed to fit within the 32-bit signed integer range.
-        >>Example 1:
-        
-        Given nums = [1,-1,5,-2,3],k = 3,
-        return 4.(because the subarray [1,-1,5,-2] sums to 3 and is the longest
-        Given nums = [-2,-1,2,1], k = 1,
-        return 2.(because the subarray [-1,2] sums to 1 and is the longest 
-    
-           
-    Smallest Subarray with a given sum (easy)
-    
-    Longest Substring with K Distinct Characters (medium)
-    
-    Fruits into Baskets (medium)
-    
-    No-repeat Substring (hard)
-    
-    Longest Substring with Same Letters after Replacement (hard)
-    
-    Longest Subarray with Ones after Replacement (hard)
-         
-    2. Pattern: two points, 双指针类型 
-    
-    Pair with Target Sum (easy)
-    
-    Remove Duplicates (easy)
-    
-    Squaring a Sorted Array (easy)
-    
-    Triplet Sum to Zero (medium)
-    
-    Triplet Sum Close to Target (medium)
-    
-    Triplets with Smaller Sum (medium)
-    
-    Subarrays with Product Less than a Target (medium)
-    
-    Dutch National Flag Problem (medium)
-    
+  two points, 双指针类型 
+  
+  Pair with Target Sum (easy)
+  
+  Remove Duplicates (easy)
+  
+  Squaring a Sorted Array (easy)
+  
+  Triplet Sum to Zero (medium)
+  
+  Triplet Sum Close to Target (medium)
+  
+  Triplets with Smaller Sum (medium)
+  
+  Subarrays with Product Less than a Target (medium)
+  
+  Dutch National Flag Problem (medium)
+  
+  滑动窗口
+  
+  minimum-window-substring
+  
+  permutation-in-string
+  
+  find-all-anagrams-in-a-string
+  
+  longest-substring-without-repeating-characters
+
+  Smallest Subarray with a given sum (easy)
+  
+  Longest Substring with K Distinct Characters (medium)
+  
+  Fruits into Baskets (medium)
+
+  No.325 Maximum Sum Subarray of Size K（最大子数组和为k）  
+
+  >Given an array nums and a target value k, find the maximum length of a subarray that sums to k. 
+    If there isn’t one, return 0 instead
+  > 
+  >Note:The sum of the entire nums array is guaranteed to fit within the 32-bit signed integer range.
+  >
+  >Given nums = [1,-1,5,-2,3], k = 3, return 4. because the subarray [1,-1,5,-2] sums to 3 and is the longest
+  >
+  >Given nums = [-2,-1,2,1], k = 1, return 2. because the subarray [-1,2] sums to 1 and is the longest 
+      
+  No-repeat Substring (hard)
+  
+  Longest Substring with Same Letters after Replacement (hard)
+  
+  Longest Subarray with Ones after Replacement (hard)
+
 
 ## 快慢指针遍历
 
@@ -351,8 +330,9 @@
     backpack
     
     backpack-ii
-    
-    # 16. Pattern : 0/1 Knapsack (Dynamic Programming)
+  
+
+# 16. Pattern : 0/1 Knapsack (Dynamic Programming)
 
     0/1 Knapsack (medium)
 
