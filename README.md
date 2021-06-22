@@ -13,21 +13,21 @@
 
 ## 链表操作
 
--[x] 2_两数相加
--[x] 19_删除链表的倒数第N个节点
--[ ] 25_k个一组翻转链表
--[x] 61_旋转链表
--[x] 138_复制带随机指针的链表
--[x] 206_反转链表
--[ ] 83 删除排序链表中的重复元素  remove-duplicates-from-sorted-list
--[ ] 82 删除排序链表中的重复元素 II  remove-duplicates-from-sorted-list ii
--[ ] 92 反转链表 II  reverse-linked-list-ii（Reverse a Sub-list）
+-[x] 2 两数相加
+-[x] 19 删除链表的倒数第N个节点
+-[ ] 25 k个一组翻转链表
+-[x] 61 旋转链表
+-[x] 138 复制带随机指针的链表
+-[x] 206 反转链表
 -[ ] 21  合并两个有序链表  merge-two-sorted-lists
+-[ ] 82 删除排序链表中的重复元素 II  remove-duplicates-from-sorted-list ii
+-[ ] 83 删除排序链表中的重复元素  remove-duplicates-from-sorted-list
 -[ ] 86  分隔链表  partition-list
--[ ] 148  排序链表  sort-list
--[ ] 143  重排链表  reorder-list
+-[ ] 92 反转链表 II  reverse-linked-list-ii（Reverse a Sub-list）
 -[ ] 141  环形链表  linked-list-cycle
 -[ ] 142  环形链表 II  linked-list-cycle-ii
+-[ ] 143  重排链表  reorder-list
+-[ ] 148  排序链表  sort-list
 -[ ] 234  回文链表 palindrome-linked-list  
     
 
@@ -44,15 +44,11 @@
     
   two points, 双指针类型 
   
-  Pair with Target Sum (easy)
+  34. 在排序数组中查找元素的第一个和最后一个位置 Pair with Target Sum (easy)
   
   Remove Duplicates (easy)
   
-  Squaring a Sorted Array (easy)
-  
-  Triplet Sum to Zero (medium)
-  
-  Triplet Sum Close to Target (medium)
+  977. 有序数组的平方 Squaring a Sorted Array (easy) 
   
   Triplets with Smaller Sum (medium)
   
@@ -279,68 +275,7 @@
     Minimum Difference Element (medium)
     
     Bitonic Array Maximum (easy)
-    
-
-## 动态规划
-
-- [ ] q5_最长回文子串
-- [ ] q53_最大子序和
-- [ ] q62_不同路径
-- [ ] q64_最小路径和
-- [ ] q70_爬楼梯
-- [ ] q118_杨辉三角
-- [ ] q300_最长上升子序列
-- [ ] q1143_最长公共子序列
-- [ ] q1277_统计全为1的正方形子矩阵
-
-    Matrix DP (10%)
-
-    triangle
-    
-    minimum-path-sum
-    
-    unique-paths
-    
-    unique-paths-ii
-
-    Sequence (40%)
-
-    climbing-stairs
-    
-    jump-game
-    
-    jump-game-ii
-    
-    palindrome-partitioning-ii
-    
-    longest-increasing-subsequence
-    
-    word-break
-
-    Two Sequences DP (40%)
-
-    longest-common-subsequence
-    
-    edit-distance
-
-    Backpack & Coin Change (10%)
-
-    coin-change
-    
-    backpack
-    
-    backpack-ii
-  
-
-# 16. Pattern : 0/1 Knapsack (Dynamic Programming)
-
-    0/1 Knapsack (medium)
-
-    Equal Subset Sum Partition (medium)
-    
-    Subset Sum (medium)
-    
-    Minimum Subset Sum Difference (hard)
+ 
 
 ## 回溯法
 
@@ -372,18 +307,15 @@
 
 ## 区间合并
 
-- [x] q56_合并区间
-    
-     
-    # 5. Pattern: Merge Intervals，区间合并类型 
-    
-    Merge Intervals (medium)
-    
-    Insert Interval (medium)
-    
-    Intervals Intersection (medium)
-    
-    Conflicting Appointments (medium)
+- [x] q56_合并区间  
+  
+  Merge Intervals (medium)
+  
+  Insert Interval (medium)
+  
+  Intervals Intersection (medium)
+  
+  Conflicting Appointments (medium)
       
 
 ## 字符串操作
@@ -429,6 +361,7 @@
     Complement of Base 10 Number (medium)
     
 ## 6. Pattern: Cyclic Sort，循环排序 
+
     Cyclic Sort (easy)
     
     268.Find the Missing Number (easy)
@@ -481,3 +414,127 @@
 ## 18. Miscellaneous
 
     Kth Smallest Number (hard)
+
+
+## 动态规划
+
+- [ ] q5_最长回文子串
+- [ ] q53_最大子序和
+- [ ] q62_不同路径
+- [ ] q64_最小路径和
+- [ ] q70_爬楼梯
+- [ ] q118_杨辉三角
+- [ ] q300_最长上升子序列
+- [ ] q1143_最长公共子序列
+- [ ] q1277_统计全为1的正方形子矩阵
+
+    Matrix DP (10%)
+
+    triangle
+    
+    minimum-path-sum
+    
+    unique-paths
+    
+    unique-paths-ii
+
+    Sequence (40%)
+
+    climbing-stairs
+    
+    jump-game
+    
+    jump-game-ii
+    
+    palindrome-partitioning-ii 
+    
+    word-break
+
+    Two Sequences DP (40%) 
+
+    Backpack & Coin Change (10%)
+    
+    backpack
+    
+    backpack-ii
+
+### 0/1 Knapsack, 0/1背包，6个题
+     
+    0/1 Knapsack，0/1背包问题
+
+    Equal Subset Sum Partition，相等子集划分问题
+
+    Subset Sum，子集和问题
+
+    Minimum Subset Sum Difference，子集和的最小差问题
+
+    Count of Subset Sum，相等子集和的个数问题
+
+    Target Sum，寻找目标和的问题
+ 
+
+### Unbounded Knapsack，无限背包，5个题
+
+    Unbounded Knapsack，无限背包
+
+    Rod Cutting，切钢条问题
+
+    Coin Change，换硬币问题
+
+    Minimum Coin Change，凑齐每个数需要的最少硬币问题
+
+    Maximum Ribbon Cut，丝带的最大值切法
+
+### Fibonacci Numbers，斐波那契数列，6个题
+
+    Fibonacci numbers，斐波那契数列问题
+
+    Staircase，爬楼梯问题
+
+    Number factors，分解因子问题
+
+    Minimum jumps to reach the end，蛙跳最小步数问题
+
+    Minimum jumps with fee，蛙跳带有代价的问题
+
+    House thief，偷房子问题
+
+###  Palindromic Subsequence，回文子串系列，5个题
+
+    Longest Palindromic Subsequence，最长回文子序列
+
+    Longest Palindromic Substring，最长回文子字符串
+
+    Count of Palindromic Substrings，最长子字符串的个数问题
+
+    Minimum Deletions in a String to make it a Palindrome，怎么删掉最少字符构成回文
+
+    Palindromic Partitioning，怎么分配字符，形成回文
+
+### Longest Common Substring，最长子字符串系列，13个题
+
+    Longest Common Substring，最长相同子串
+
+    Longest Common Subsequence，最长相同子序列
+
+    Minimum Deletions & Insertions to Transform a String into another，字符串变换
+
+    Longest Increasing Subsequence，最长上升子序列
+
+    Maximum Sum Increasing Subsequence，最长上升子序列和
+
+    Shortest Common Super-sequence，最短超级子序列
+
+    Minimum Deletions to Make a Sequence Sorted，最少删除变换出子序列
+
+    Longest Repeating Subsequence，最长重复子序列
+
+    Subsequence Pattern Matching，子序列匹配
+
+    Longest Bitonic Subsequence，最长字节子序列
+
+    Longest Alternating Subsequence，最长交差变换子序列
+
+    Edit Distance，编辑距离
+
+    Strings Interleaving，交织字符串 
