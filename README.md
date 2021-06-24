@@ -8,27 +8,27 @@
  
 ## Hash相关
 
--[x] 1_两数之和
--[x] 387_字符串中的第一个唯一字符
+- [x] 1_两数之和
+- [x] 387_字符串中的第一个唯一字符
 
 ## 链表操作
 
--[x] 2 两数相加
--[x] 19 删除链表的倒数第N个节点
--[ ] 25 k个一组翻转链表
--[x] 61 旋转链表
--[x] 138 复制带随机指针的链表
--[x] 206 反转链表
--[ ] 21  合并两个有序链表  merge-two-sorted-lists
--[ ] 82 删除排序链表中的重复元素 II  remove-duplicates-from-sorted-list ii
--[ ] 83 删除排序链表中的重复元素  remove-duplicates-from-sorted-list
--[ ] 86  分隔链表  partition-list
--[ ] 92 反转链表 II  reverse-linked-list-ii（Reverse a Sub-list）
--[ ] 141  环形链表  linked-list-cycle
--[ ] 142  环形链表 II  linked-list-cycle-ii
--[ ] 143  重排链表  reorder-list
--[ ] 148  排序链表  sort-list
--[ ] 234  回文链表 palindrome-linked-list  
+- [x] 2 两数相加
+- [x] 19 删除链表的倒数第N个节点
+- [ ] 25 k个一组翻转链表
+- [x] 61 旋转链表
+- [x] 138 复制带随机指针的链表
+- [x] 206 反转链表
+- [ ] 21  合并两个有序链表  merge-two-sorted-lists
+- [ ] 82 删除排序链表中的重复元素 II  remove-duplicates-from-sorted-list ii
+- [ ] 83 删除排序链表中的重复元素  remove-duplicates-from-sorted-list
+- [ ] 86  分隔链表  partition-list
+- [ ] 92 反转链表 II  reverse-linked-list-ii（Reverse a Sub-list）
+- [ ] 141  环形链表  linked-list-cycle
+- [ ] 142  环形链表 II  linked-list-cycle-ii
+- [ ] 143  重排链表  reorder-list
+- [ ] 148  排序链表  sort-list
+- [ ] 234  回文链表 palindrome-linked-list  
     
 
 ## 双指针遍历/滑动窗口
